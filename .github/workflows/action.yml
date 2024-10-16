@@ -2,7 +2,7 @@ name: RandomGithubCommitor
 
 on:
   schedule:
-    - cron: '13 00 * * *'  # Runs at 3 PM Nepal time (UTC+5:45)
+    - cron: '15 00 * * *'
 
 jobs:
   run-script:
