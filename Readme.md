@@ -105,4 +105,4 @@ The script handles the following exceptions:
 We welcome contributions! Feel free to submit a pull request or open an issue if you find bugs or want to add new features.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This Script is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
