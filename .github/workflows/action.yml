@@ -2,7 +2,7 @@ name: RandomGithubCommitor
 
 on:
   schedule:
-    - cron: '15 00 * * *'
+    - cron: '0 15 * * *'
 
 jobs:
   run-script:
@@ -23,6 +23,6 @@ jobs:
 
       - name: Run script
         env:
-          api_key: ${{ secrets.API_KEY }}
+          API_KEY: ${{ secrets.API_KEY }}
         run: |
           python main.py
