@@ -2,7 +2,7 @@ name: RandomGithubCommitor
 
 on:
   schedule:
-    - cron: '15 00 * * *'
+    - cron: '0 15 * * *'
 
 jobs:
   run-script:
